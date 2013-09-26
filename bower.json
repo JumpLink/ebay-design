@@ -1,0 +1,19 @@
+{
+  "name": "bugwelder-base",
+  "version": "0.0.0",
+  "authors": [
+    "Pascal Garber <pascal@bugwelder.com>"
+  ],
+  "license": "MIT",
+  "homepage": "bugwelder.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}

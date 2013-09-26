@@ -1,0 +1,100 @@
+body {
+background: url(images/bg.jpg);
+margin: 0;
+font-family: 'Merienda', cursive;
+}
+
+.logo {
+margin: 0 auto;
+background: url(images/chooser.gif) no-repeat;
+width: 356px;
+height: 150px;
+display:block;
+margin-top: 50px;
+}
+
+.links {
+padding-left: 160px;
+}
+
+.old_shop {
+display: block;
+width: 140px;
+height: 45px;
+margin-bottom: 7px;
+background: url(images/goto_old_shop.png) no-repeat;
+}
+
+.shop {
+display: block;
+width: 170px;
+height: 45px;
+margin-bottom: 7px;
+background: url(images/goto_shop.png) no-repeat;
+}
+
+.blog {
+display: block;
+width: 140px;
+height: 45px;
+margin-bottom: 7px;
+background: url(images/goto_blog.png) no-repeat;
+}
+
+br { clear: both; }
+
+.cntSeparator {
+font-size: 54px;
+margin: 10px 7px;
+color: #000;
+}
+
+.desc {
+margin: 7px 2px 43px 2px;
+padding-left: 90px;
+}
+
+.desc div {
+float: left;
+font-family: Arial;
+width: 70px;
+margin-right: 65px;
+font-size: 13px;
+font-weight: bold;
+color: #000;
+}
+
+.countdown {
+margin-left: auto;
+margin-right: auto;
+width: 700px;
+text-align: center;
+}
+
+#counter {
+padding-left: 90px;
+}
+
+.paper-block {
+/*width:500px;*/
+background: url(images/kariert_trans_blue.png);
+padding-top: 72px;
+margin-bottom: 30px;
+/*margin-left: 206px;*/
+-webkit-transform: rotate(-2deg);
+-moz-transform: rotate(-2deg);
+-ms-transform: rotate(-2deg);
+-o-transform: rotate(-2deg);
+transform: rotate(-2deg);
+font-family: 'Special Elite', cursive;
+}
+
+.karos {
+background: url(images/karos_blue.png);
+background-repeat: repeat;
+padding-bottom: 30px;
+}
+
+.rabatttext {
+padding: 5px;
+}
