@@ -1,9 +1,14 @@
+/* import bootstrap3 and bugwelder-shop definitions */
+
+@import "/magento-skin/less/fonts.less";
 @import "/magento-skin/less/bootstrap/variables.less";
 @import "/bower_components/bootstrap/less/bootstrap.less";
 @import "/magento-skin/less/variables.less";
 @import "/magento-skin/less/mixins.less";
 @import "/magento-skin/less/custom-bootstrap.less";
+@import "/magento-skin/less/buttons.less";
 
+/* bootstrap container for ebay */
 
 .pagelayout {
 	 .container-fixed();
@@ -26,6 +31,13 @@
     max-width: @container-lg-desktop;
   }
 }
+
+/* ebay fixes */
+#gh-shop {
+	margin-top: -44px;
+}
+
+/* ebay shop design */
 
 div.pagecontainer > table:nth-of-type(2) table:nth-of-type(2) {
 	background-color: #eecda2;
@@ -73,11 +85,3 @@ div.pagecontainer table,
 	top: -30px;
 	position: relative;
 }
-
-/* this classes / ids need the default background-color */
-/*.stBadge-midContent, .coreFooterLinks, #gh {
-	background-color: white !important;
-	background-image: none !important;
-}*/
-
-/*<font color="000000" size="6" face="Arial">*/
