@@ -81,15 +81,14 @@ div.pagecontainer table,
 					color: @white;
 				}
 			}
-			>.active {
-				>a {
-					color: @orange;
-				}
-				&:hover {
-					color: @white;
-				}
-			}
 		}
+	}
+}
+
+.navbar-inverse.navbar-base> .navbar-nav.active>a:hover, .navbar-inverse .navbar-nav>.active>a {
+	color: @orange;
+	&:hover {
+		color: @white;
 	}
 }
 
