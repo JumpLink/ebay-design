@@ -192,12 +192,13 @@ table.v4clp td ul {
 	}
 }
 
-.replace_icon(@icon) {
+.replace_icon(@icon, @color: @black) {
 	padding: 0;
 	background:none;
 	font-size: 20px;
 	height: 20px;
 	width: 20px;
+	color: @color;
 	&:before {
 		.icon(@icon);
 	};
@@ -210,4 +211,9 @@ table.v4clp td ul {
 
 .msgIcn.msg-info {
 	.replace_icon(@info-sign);
+}
+
+.fpcc .countClass {
+	padding-right: 6px;
+	padding-left: 4px;
 }
