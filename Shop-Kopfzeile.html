@@ -2,11 +2,18 @@
 
 <div class="bw-header">
 	<div class="bw-logo"></div>
-	<div class="vert_nav">
-		<div class="search">
+	<div class="row">
+		<div class="col-md-8">.col-md-8</div>
+		<div class="col-md-4">
 			<form method="get" action="http://stores.shop.ebay.de//Bugwelder-Shop__W0QQ_sidZ574086930"> 
-				Suchbegriff: <input type="Text" name="_nkw"><br>
-				<input class="btn" type="submit" value="finden"><br>
+				<div class="input-group">
+					<input id="search" type="text" class="form-control" name="_nkw" value="" autocomplete="off">
+					<span class="input-group-btn">
+						<button type="submit" title="Suche" class="btn btn-default">
+							<i class="icon-search"></i>
+						</button>
+					</span>
+				</div>
 			</form>
 		</div>
 	</div>
