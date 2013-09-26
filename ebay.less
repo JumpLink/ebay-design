@@ -81,8 +81,13 @@ div.pagecontainer table,
 					color: @white;
 				}
 			}
-			.active {
-				color: @orange;
+			>.active {
+				>a {
+					color: @orange;
+				}
+				&:hover {
+					color: @white;
+				}
 			}
 		}
 	}
