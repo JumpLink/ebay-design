@@ -192,13 +192,20 @@ table.v4clp td ul {
 	}
 }
 
-
-/* Messages */
-.msgIcn.msg-alert {
+.replace_icon(@icon) {
 	padding: 0;
 	background:none;
 	font-size: 16px;
 	&:before {
-		.icon( @warning-sign);
+		.icon(@icon);
 	};
+}
+
+/* Messages */
+.msgIcn.msg-alert {
+	.replace_icon(@warning-sign);
+}
+
+.msgIcn.msg-info {
+	.replace_icon(@info-sign);
 }
