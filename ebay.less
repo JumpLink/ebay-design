@@ -71,8 +71,14 @@ div.pagecontainer table,
 .navbar-base {
 	.border-top-radius(10px);
 	background-color: @black;
-	margin-top: 0;
-	.menu-font()
+	margin-bottom: 0;
+	.menu-font();
+	a {
+		color: @bg-color;
+		&:hover {
+			color: @white;
+		}
+	}
 }
 
 .bw-header {
