@@ -138,7 +138,8 @@ table.v4clp td ul {
 
 
 #LeftPanel {
-  .responsive-visibility();
+	/* -> hide on small devices with .hidden-xs */
+/*  .responsive-visibility();
   @media (max-width: @screen-xs-max) {
     .responsive-invisibility();
   }
@@ -156,7 +157,9 @@ table.v4clp td ul {
     @media (min-width: @screen-lg) {
       .responsive-invisibility();
     }    
-  }
+  }*/
+  .hidden-xs;
+  /* <- hide on small devices */
 	>table {
 		background: @black;
 		.default-shadow();
