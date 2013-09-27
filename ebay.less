@@ -138,7 +138,25 @@ table.v4clp td ul {
 
 
 #LeftPanel {
-	.hidden-xs;
+  .responsive-visibility();
+  @media (max-width: @screen-xs-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }    
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }    
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg) {
+      .responsive-invisibility();
+    }    
+  }
 	>table {
 		background: @black;
 		.default-shadow();
