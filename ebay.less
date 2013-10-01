@@ -351,12 +351,17 @@ div.pagecontainer table.v4acpcont {
     color: @bg-color;
     background-color: @black;
     border-color: @black;
-    border-left: 1px solid @black;
-    border-right: 1px solid @black;
   }
   table.v4wfc, table.v4midBox {
     .panel-body;
+    border-left: 1px solid @black;
+    border-right: 1px solid @black;
    // padding: 0;
+  }
+  tr.v4footr, td.v4footd  {
+    .panel-footer;
+    border: 1px solid @black;
+    border-top: none;
   }
 /*  tr.v4footr, td.v4footd  {
     .panel-footer;
