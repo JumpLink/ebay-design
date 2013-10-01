@@ -110,6 +110,12 @@ table.v4clp td ul {
 	}
 }
 
+.navbar-form {
+  .search {
+    width: 200px;
+  }
+}
+
 .bw-header {
 	height: 63px;
 	width: 100%;
@@ -138,25 +144,6 @@ table.v4clp td ul {
 	margin-top: -25px;
 	margin-bottom: -25px;
 	background-size: 70px 70px;
-}
-
-.navbar-form {
-	.search {
-		width: 200px;
-	}
-}
-
-.panel-bgw {
-	border-color: @black;
-	>.panel-heading {
-    .menu-font();
-    h1, h2, h3, h4 {
-      .menu-font();
-    }
-		color: @bg-color;
-		background-color: @black;
-		border-color: @black;
-	}
 }
 
 #LeftPanel {
@@ -215,6 +202,7 @@ table.v4clp td ul {
 
 
 #CentralArea {
+
 	padding-right: 13px;
 	.schreibmaschine-font();
   h1, h2, h3, h4 {
@@ -303,5 +291,16 @@ table.v4clp td ul {
     height: 414px;
   }
 
-  
+  .panel-bgw {
+    border-color: @black;
+    >.panel-heading {
+      .menu-font();
+      h1, h2, h3, h4 {
+        .menu-font();
+      }
+      color: @bg-color;
+      background-color: @black;
+      border-color: @black;
+    }
+  }
 }
