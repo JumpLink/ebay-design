@@ -23,6 +23,18 @@
 	 .container-fixed();
 }
 
+@media (min-width: @screen-phone) {
+  #gh {
+    display: none;
+  }
+}
+
+@media (min-width: @screen-tablet) {
+  .pagelayout {
+    max-width: @container-tablet;
+  }
+}
+
 @media (min-width: @screen-tablet) {
   .pagelayout {
     max-width: @container-tablet;
