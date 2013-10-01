@@ -23,28 +23,29 @@
 	 .container-fixed();
    padding-left: 0;
    padding-right: 0;
+   overflow: hidden;
 }
 
 @media (min-width: @screen-tablet) {
-  .pagelayout {
+  .pagelayout, body {
     max-width: @container-tablet;
   }
 }
 
 @media (min-width: @screen-tablet) {
-  .pagelayout {
+  .pagelayout, body {
     max-width: @container-tablet;
   }
 }
 
 @media (min-width: @screen-desktop) {
-  .pagelayout {
+  .pagelayout, body {
     max-width: @container-desktop;
   }
 }
 
 @media (min-width: @screen-lg-desktop) {
-  .pagelayout {
+  .pagelayout, body {
     max-width: @container-lg-desktop;
   }
 }
