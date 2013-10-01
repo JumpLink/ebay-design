@@ -23,12 +23,6 @@
 	 .container-fixed();
 }
 
-@media (max-width: @screen-phone) {
-  #gh {
-    display: none;
-  }
-}
-
 @media (min-width: @screen-tablet) {
   .pagelayout {
     max-width: @container-tablet;
@@ -58,10 +52,13 @@
 	margin-top: -44px;
 }
 
-/* ebay shop design */
+/* responsive ebay */
 #gh, .stBadge {
   min-width: 0px !important;
-  overflow: hidden !important;
+}
+
+#gh, #glbfooter, #sModule, #gh-top, #gh-gb {
+  .hidden-xs;
 }
 
 .stBadge {
@@ -69,6 +66,7 @@
     width: auto !important;
   }
 }
+
 
 div.pagecontainer > table:nth-of-type(2) table:nth-of-type(2) {
 	background-color: #eecda2;
