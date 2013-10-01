@@ -75,14 +75,11 @@ div.pagecontainer >table >tbody >tr >td >table:nth-child(2) {
 }
 
 /* reset ebay css*/
-div.pagecontainer td,
-div.pagecontainer i,
-div.pagecontainer b,
-div.pagecontainer table,
-.toplne
-{
-	background: none;
-	border: none !important;
+div.pagecontainer {
+  td, i, b, table, .toplne {
+    background: none;
+    border: none;
+  }
 }
 
 .fpcc span.keywordClass {
@@ -347,7 +344,7 @@ table.v4clp td ul {
   }
 }
 
-table.v4acpcont {
+div.pagecontainer table.v4acpcont {
   .panel;
   border-color: @black;
  // padding: 0;
