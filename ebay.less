@@ -223,10 +223,28 @@ table.v4clp td ul {
 	}
 }
 
+.panel-bgw {
+  border-color: @black;
+  >.panel-heading {
+    .menu-font();
+    h1, h2, h3, h4 {
+      .menu-font();
+    }
+    color: @bg-color;
+    background-color: @black;
+    border-color: @black;
+  }
+/*    >.panel-body {
+    .schreibmaschine-font();
+    h1, h2, h3, h4 {
+      .schreibmaschine-font();
+    }
+  }*/
+}
 
 #CentralArea {
-
-/*	padding-right: 13px;
+  padding-right: 13px;
+/*	
 	.schreibmaschine-font();
   h1, h2, h3, h4 {
     .schreibmaschine-font();
@@ -313,17 +331,13 @@ table.v4clp td ul {
     width: 320px;
     height: 414px;
   }
-
-  .panel-bgw {
-    border-color: @black;
-    >.panel-heading {
-      .menu-font();
-      h1, h2, h3, h4 {
-        .menu-font();
-      }
-      color: @bg-color;
-      background-color: @black;
-      border-color: @black;
+  .r3_c {
+    .panel;
+    .fpcc {
+      .panel-heading;
+    }
+    .rs_box {
+      .panel-body;
     }
   }
 }
