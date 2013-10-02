@@ -48,6 +48,11 @@
   .pagelayout {
     max-width: @container-lg-desktop;
   }
+  .grid td.gallery {
+    .clearfix();
+    .pull-left();
+    width: percentage((4 / @grid-columns));
+  }
 }
 
 /* ebay fixes */
@@ -60,7 +65,7 @@
   min-width: 0px !important;
 }
 
-#gh, #glbfooter, #sModule, #gh-top, #gh-gb, .whiter-s_nf {
+#gh, #glbfooter, #sModule, #gh-top, #gh-gb, .whiter-s_nf, #LeftPanel, table#TopPromoArea td.v4topleft {
   .hidden-xs;
 }
 
@@ -165,7 +170,6 @@ table.v4clp td ul {
 }
 
 #LeftPanel {
-	
   .hidden-xs; // hide on small devices with .hidden-xs
 	>table {
 		background: @black;
@@ -229,12 +233,6 @@ table.v4clp td ul {
     background-color: @black;
     border-color: @black;
   }
-/*    >.panel-body {
-    .schreibmaschine-font();
-    h1, h2, h3, h4 {
-      .schreibmaschine-font();
-    }
-  }*/
 }
 
 #CentralArea {
@@ -383,21 +381,10 @@ div.pagecontainer table.v4acpcont {
   }
   table.v4wfc, table.v4midBox {
     .panel-body;
-/*    border-left: 1px solid @black;
-    border-right: 1px solid @black;*/
-   // padding: 0;
   }
   tr.v4footr, td.v4footd  {
     .panel-footer;
-/*    border: 1px solid @black;
-    border-top: none;*/
   }
-/*  tr.v4footr, td.v4footd  {
-    .panel-footer;
-    color: @bg-color;
-    background-color: @black;
-    border-color: @black;
-  }*/
 }
 
 table#TopPromoArea td.v4topright {
@@ -420,23 +407,6 @@ table#TopPromoArea td.v4topright {
   }
   td.left {
     border-left: 1px solid #ccc !important;
-  }
-}
-/* .col-md-6; */
-/*@media (min-width: @screen-desktop) {
-  .grid td.gallery {
-    .clearfix();
-    .pull-left();
-    width: percentage((6 / @grid-columns));
-  }
-}*/
-
-/* .col-lg-4; */
-@media (min-width: @screen-lg-desktop) {
-  .grid td.gallery {
-    .clearfix();
-    .pull-left();
-    width: percentage((4 / @grid-columns));
   }
 }
 
