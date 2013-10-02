@@ -41,7 +41,7 @@
 }
 
 table#TopPromoArea td.v4topleft {
-  width: 100%;
+  width: 100% !important;
 }
 
 .stBadge {
@@ -377,6 +377,7 @@ table#TopPromoArea td.v4topright {
 .grid {
   td.gallery {
     .well;
+    border: 1px solid #e3e3e3 !important;
     padding: 10px;
     display: block;
     width: 100% //.col-xs-12;
@@ -390,6 +391,10 @@ table#TopPromoArea td.v4topright {
   img {
     .img-thumbnail;
   }
+}
+
+div.itemseparator {
+  display: none;
 }
 
 @media (min-width: @screen-tablet) {
