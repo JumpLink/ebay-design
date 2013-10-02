@@ -1,0 +1,39 @@
+.panel-bgw {
+  border-color: @black;
+  >.panel-heading {
+    .menu-font();
+    h1, h2, h3, h4 {
+      .menu-font();
+    }
+    color: @bg-color;
+    background-color: @black;
+    border-color: @black;
+  }
+}
+
+.bgw-vertical-nav {
+	background-color: @black;
+  .menu-font();
+  font-size: 15px;
+	.default-shadow();
+	.border-radius(3px);
+	li {
+		> a {
+			padding: 5px 10px;
+			color: @bg-color;
+			&:hover {
+				color: @white;
+				background-color: @black;
+			}
+		}
+	}
+	li.active {
+		> a {
+			color: @red;
+		}
+	}
+	li.title {
+		color: @white;
+		padding: 5px 10px;
+	}
+}
