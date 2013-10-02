@@ -416,14 +416,27 @@ table#TopPromoArea td.v4topright {
   td.gallery {
     padding: 10px;
     display: block;
-    .clearfix();
-    .pull-left();
-    .col-xs-12;
-    .col-md-6;
-    .col-lg-4;
+    width: 100%:; //.col-xs-12;
   }
   td.left {
     border-left: 1px solid #ccc !important;
+  }
+}
+/* .col-md-6; */
+@media (min-width: @screen-desktop) {
+  .grid td.gallery {
+    .clearfix();
+    .pull-left();
+    width: percentage((6 / @grid-columns));
+  }
+}
+
+/* .col-lg-4; */
+@media (min-width: @screen-lg-desktop) {
+  .grid td.gallery {
+    .clearfix();
+    .pull-left();
+    width: percentage((4 / @grid-columns));
   }
 }
 
