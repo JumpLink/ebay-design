@@ -353,17 +353,20 @@ table.v4clp td ul {
 
 div.pagecontainer table.v4acpcont {
   .panel;
-  .v4acp {
+  table.v4acp {
     .panel-heading;
       background-color: @black;
       border-color: @black;
-      * {
+      *, tr.v4acp_head td.v4title {
         .panel-title;
         .menu-font();
         color: @bg-color;
         font-size: 16px;
         font-weight: normal;
         background: none;
+      }
+      tr.v4acp_head td.v4title {
+        .panel-heading;
       }
   }
   table.v4wfc, table.v4midBox {
