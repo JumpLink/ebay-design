@@ -334,9 +334,13 @@ table.v4clp td ul {
   padding: 0;
   .fpcc {
     .panel-heading;
-    color: @bg-color;
-    background-color: @black;
-    border-color: @black;
+      background-color: @black;
+      border-color: @black;
+      * {
+        .panel-title;
+        .menu-font();
+        color: @bg-color;
+      }
   }
   .rs_box {
     .panel-body;
@@ -348,9 +352,13 @@ div.pagecontainer table.v4acpcont {
   .panel;
   .v4acp {
     .panel-heading;
-    color: @bg-color;
-    background-color: @black;
-    border-color: @black;
+      background-color: @black;
+      border-color: @black;
+      * {
+        .panel-title;
+        .menu-font();
+        color: @bg-color;
+      }
   }
   table.v4wfc, table.v4midBox {
     .panel-body;
