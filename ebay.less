@@ -26,35 +26,6 @@
    overflow: hidden;
 }
 
-@media (min-width: @screen-tablet) {
-  .pagelayout {
-    max-width: @container-tablet;
-  }
-}
-
-@media (min-width: @screen-tablet) {
-  .pagelayout {
-    max-width: @container-tablet;
-  }
-}
-
-@media (min-width: @screen-desktop) {
-  .pagelayout {
-    max-width: @container-desktop;
-  }
-}
-
-@media (min-width: @screen-lg-desktop) {
-  .pagelayout {
-    max-width: @container-lg-desktop;
-  }
-  .grid td.gallery {
-    .clearfix();
-    .pull-left();
-    width: percentage((4 / @grid-columns));
-  }
-}
-
 /* ebay fixes */
 #gh-shop {
 	margin-top: -44px;
@@ -67,6 +38,10 @@
 
 #gh, #glbfooter, #sModule, #gh-top, #gh-gb, .whiter-s_nf, #LeftPanel, table#TopPromoArea td.v4topleft {
   .hidden-xs;
+}
+
+table#TopPromoArea td.v4topleft {
+  width: 100%;
 }
 
 .stBadge {
@@ -349,7 +324,7 @@ table.v4clp td ul {
   }
 }
 
-div.pagecontainer table.v4acpcont {
+div.pagecontainer table.v4acpcont table.v4midBox.v4wfc {
   >tbody {
     >tr:nth-child(2) {
       border-left: 1px solid @black;
@@ -410,12 +385,37 @@ table#TopPromoArea td.v4topright {
   }
 }
 
-/* TODO remove*/
-
 .pic, table.gallery .image {
   img {
-/*    width: 140px;
-    height: 112px;*/
     .img-thumbnail;
+  }
+}
+
+@media (min-width: @screen-tablet) {
+  .pagelayout {
+    max-width: @container-tablet;
+  }
+}
+
+@media (min-width: @screen-tablet) {
+  .pagelayout {
+    max-width: @container-tablet;
+  }
+}
+
+@media (min-width: @screen-desktop) {
+  .pagelayout {
+    max-width: @container-desktop;
+  }
+}
+
+@media (min-width: @screen-lg-desktop) {
+  .pagelayout {
+    max-width: @container-lg-desktop;
+  }
+  .grid td.gallery {
+    .clearfix();
+    .pull-left();
+    width: percentage((4 / @grid-columns));
   }
 }
