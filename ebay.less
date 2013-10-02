@@ -352,6 +352,17 @@ table.v4clp td ul {
 }
 
 div.pagecontainer table.v4acpcont {
+  >tbody {
+    >tr:nth-child(2) {
+      border-left: 1px solid @black;
+      border-right: 1px solid @black;
+    }
+    >tr:nth-child(2) {
+      border-left: 1px solid @black;
+      border-right: 1px solid @black;
+      border-bottom: 1px solid @black;
+    }
+  }
   .panel;
   table.v4acp {
     .panel-heading;
@@ -367,6 +378,7 @@ div.pagecontainer table.v4acpcont {
       }
       tr.v4acp_head td.v4title {
         .panel-heading;
+        .border-top-radius(4px);
       }
   }
   table.v4wfc, table.v4midBox {
