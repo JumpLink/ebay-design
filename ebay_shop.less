@@ -64,14 +64,18 @@ table.v4clp td ul {
 
 #LeftPanel {
   .hidden-xs; // hide on small devices with .hidden-xs
-  .v4mid .lcat .ttl a {
-    color: @bg-color;
+  .v4mid .lcat .ttl {
+    color: @link-color;
     font-weight: normal !important;
-    &:hover {
-      color: @white !important;
-      text-decoration: none;
+    a {
+      color: @bg-color;
       font-weight: normal !important;
-    };
+      &:hover {
+        color: @white !important;
+        text-decoration: none;
+        font-weight: normal !important;
+      };
+    }
   }
 	>table {
 		background: @black;
