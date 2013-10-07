@@ -1,0 +1,16 @@
+doctype 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='#{source_url}/ebay.css')
+  body
+    // remove #CentralArea and #EBdescription in ebay
+    #CentralArea
+      #EBdescription
+        // -> ebay product discription
+        div.ebay-product-discription
+          include top-nav
+          .ebay-container
+            include left-nav
+        // <- ebay product discription

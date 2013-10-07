@@ -1,0 +1,15 @@
+nav.navbar.navbar-inverse.navbar-static-top.navbar-base(role='navigation')
+  .navbar-header
+    a.navbar-brand(href='#{ebay_url}/pages/home')
+      .bw-logo
+  .navbar-collapse.navbar-ex8-collapse
+    ul.nav.navbar-nav
+      each link, name in ebay.categories
+        li
+          a(href='#{link}') #{name}
+    form.navbar-form.navbar-right(role='search', method='get', action='#{ebay_search_url}')
+      .search.input-group
+        input#search.form-control(type='text', placeholder='Suche', name='_nkw', value='', autocomplete='off')
+        span.input-group-btn
+          button.btn.btn-bgw_brown
+            i.icon-search

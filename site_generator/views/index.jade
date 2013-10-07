@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  // -> ebay shop site
+  div.ebay-shop.site
+    .panel.panel-bgw
+        .panel-heading
+          h3.panel-title
+            i.icon-group
+            | Willkommen
+        .panel-body
+          | Willkommen bei Bugwelder... jo
+      .support
+        .telephone
+        .panel.panel-bgw
+          .panel-heading
+            h3.panel-title
+              i.icon-phone
+              | Support
+          .panel-body
+            | Du kannst unseren Kundenservice von 9:00 bis 18:00 Uhr erreichen, egal ob es dabei um die Lösung eines technischen Problems, Fragen zu einer Bestellung, einem Produkt oder einer ganz allgemeinen Anfrage geht.
+            dl.dl-horizontal
+              dt Telefon
+              dd(title='+49 (0)4721/ 39 69 02') +49 (0)4721/ 39 69 02
+              dt Fax
+              dd(title='+49 (0)4721/ 39 69 05') +49 (0)4721/ 39 69 05
+              dt E-Mail
+              dd(title='info@bugwelder.com') info@bugwelder.com
+              dt Live-Chat
+              dd 
+                a(href="#{ebay.sites['Informationen zum Verkäufer']}") Weitere Informationen
+              dt Anrufzeiten     
+              dd(title='Mo - Fr') Mo - Fr
+              dd(title='09.00-18.00 Uhr') 09.00-18.00 Uhr
+  // <- ebay shop site
