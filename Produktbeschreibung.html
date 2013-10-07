@@ -1,8 +1,9 @@
 <div id="EBdescription" style="min-width:902px;max-width:1403px"> <!-- test -->
-  <link rel="stylesheet" type="text/css" href="ebay.css"> <!-- test -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" type="text/css" href="http://bugwelder.com/ebay.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="http://bugwelder.com/ebay.min.css">
+
+  <link rel="stylesheet" type="text/css" href="ebay.css"> <!-- test -->
 
   <nav class="navbar navbar-inverse navbar-static-top navbar-base" role="navigation">
   	<div class="navbar-header">
@@ -19,7 +20,7 @@
   			<li><a href="#">Link</a></li>
   		</ul>
 
-  		<form class="navbar-form navbar-right" role="search" method="get" action="http://stores.shop.ebay.de//Bugwelder-Shop__W0QQ_sidZ574086930"> 
+  		<form class="navbar-form navbar-right" role="search" placeholder="Suche" method="get" action="http://stores.shop.ebay.de//Bugwelder-Shop__W0QQ_sidZ574086930"> 
   			
   			<div class="search input-group">
   				<input id="search" type="text" class="form-control" name="_nkw" value="" autocomplete="off">
@@ -34,8 +35,9 @@
   </nav>
   <div class="ebay-container">
     <div class="row">
-      <div class="col-md-2">
-        <ul class="nav nav-stacked bgw-vertical-nav" style="max-width: 210px;">
+      <div class="hidden-sm col-md-2 left-nav">
+
+        <ul class="nav nav-stacked bgw-vertical-nav">
           <li class="title">
              SHOP-SEITEN
           </li>
@@ -49,54 +51,120 @@
             <a href="#">AGB</a>
           </li>
           <li>
-            <a href="#">Widerrufsb​elehrung</a>
+            <a href="#">Widerrufsbelehrung</a>
           </li>
           <li>
             <a href="#">Lieferung</a>
           </li>
           <li>
-            <a href="#">Informatio​nen zum Verkäufer</a>
+            <a href="#">KBA Zertifizierung</a>
+          </li>
+          <li>
+            <a href="#">Informationen zum Verk&auml;ufer</a>
           </li>
         </ul>
-      </div>
-      <div class="col-md-10">
+
+        <br>
+        <div class="panel panel-bgw">
+          <div class="panel-heading">
+            <h3 class="panel-title">Impressum</h3>
+          </div>
+          <div class="panel-body">
+            <dl>
+              <dt>Inhaber</dt>
+              <dd title="Christopher Heinecke">Christopher Heinecke</dd>
+              <dt>Adresse</dt>
+              <dd title="Bugwelder">Bugwelder</dd>
+              <dd title="Strichweg 35">Strichweg 35</dd>
+              <dd title="27472 Cuxhaven">27472 Cuxhaven</dd>
+              <dd title="Deutschland">Deutschland</dd>
+              <dt>Telefon</dt>
+              <dd title="+49 (0)4721/ 39 69 02">+49 (0)4721/ 39 69 02</dd>
+              <dt>Fax</dt>
+              <dd title="+49 (0)4721/ 39 69 05">+49 (0)4721/ 39 69 05</dd>
+              <dt>E-Mail</dt>
+              <dd title="info@bugwelder.com">info@bugwelder.com</dd>
+              <dt>&Ouml;ffnungszeiten</dt>
+              <dd title="Mo - Fr: 09.00-18.00 Uhr">Mo - Fr: 09.00-18.00 Uhr</dd>
+              <dt>USt - IdNr.</dt>
+              <ddtitle="DE243667612">DE243667612</dd>
+            </dl>
+          </div>
+        </div>
 
         <div class="panel panel-bgw">
           <div class="panel-heading">
-            <h3 class="panel-title">Gallerie</h3>
+            <h3 class="panel-title">Zahlungsarten</h3>
           </div>
           <div class="panel-body">
-            #media_gallery[,,,2,column,0,"Klicken Sie unten auf das Bild, um den Bildausschnitt zu vergrößern"]#
+            <small>Wir bieten ihnen folgende Zahlungsarten f&uuml;r eine bequeme Kaufabwicklung</small>
+            <!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><img src="https://www.paypalobjects.com/webstatic/de_DE/i/de-pp-logo-100px.png" border="0" alt="PayPal Logo"></td></tr></table><!-- PayPal Logo -->
+            <br>
+            <font style="width:100%;text-align:center;display:block;"><b>Bank&uuml;berweisung</b></font>
+            <img src="images/ueberweisungstraeger.svg", style="width:100%">
+          </div>
+        </div>
+
+        <div class="panel panel-bgw">
+          <div class="panel-heading">
+            <h3 class="panel-title">Versand</h3>
+          </div>
+          <div class="panel-body">
+            <img src="images/Logo_DPD.svg", style="width:100%">
+            <img src="images/United-Parcel-Service-Logo.svg", style="width:100%">
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="col-sm-12 col-md-10">
+        <h2 class="product-title">#name#</h2>
+
+        <div class="panel panel-bgw">
+          <div class="panel-heading">
+            <h3 class="panel-title">Produktbeschreibung</h3>
+          </div>
+          <div class="panel-body">
+            #short_description# <br>
+          </div>
+        </div>
+
+        <div class="panel panel-bgw">
+          <div class="panel-heading">
+            <h3 class="panel-title">Produktbilder</h3>
+          </div>
+          <div class="panel-body">
+            #media_gallery[,,,2,row,0,""]#
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-sm-7">
             <div class="panel panel-bgw">
               <div class="panel-heading">
-                <h3 class="panel-title">Produktbeschreibung</h3>
+                <h3 class="panel-title">Details</h3>
               </div>
               <div class="panel-body">
-                #short_description# <br>
                 #description#
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-sm-5">
             <div class="panel panel-bgw">
               <div class="panel-heading">
                 <h3 class="panel-title">Zusatzinformation</h3>
               </div>
               <div class="panel-body">
                 <dl class="dl-horizontal">
-                  <dt>Vergleichsnummer</dt>
-                  <dd>AC6014130</dd>
-                  <dt>Gewicht in Kilogramm</dt>
-                  <dd>0.0000</dd>
-                  <dt>Lieferzeit in Tagen</dt>
-                  <dd>2-3</dd>
+                  <dt>Vergleichsnr.</dt>
+                  <dd title="#sku#">#sku#</dd>
+                  <dt>Gewicht in Kg</dt>
+                  <dd title="#weight#">#weight#</dd>
+                  <dt>Lieferzeit in T.</dt>
+                  <dd title="#delivery_time#">#delivery_time#</dd>
                   <dt>Hersteller</dt>
-                  <dd>Bugwelder</dd>
+                  <dd title="#manufacturer#">#manufacturer#</dd>
                 </dl>
               </div>
             </div>
