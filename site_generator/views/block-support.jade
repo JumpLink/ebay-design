@@ -3,7 +3,8 @@
     .panel-heading
       h3.panel-title
         i.icon-phone
-        | Support
+        a(href="#{ebay.sites['Informationen zum Verkäufer']}")
+          | Support
     .panel-body
       dl
         dt Telefon
@@ -11,10 +12,11 @@
         dt Fax
         dd(title='+49 (0)4721/ 39 69 05') +49 (0)4721/ 39 69 05
         dt E-Mail
-        dd(title='info@bugwelder.com') info@bugwelder.com
+        dd(title='info@bugwelder.com')
+          a(href="mailto:info@bugwelder.com", target="_blank") info@bugwelder.com
         dt Live-Chat
         dd 
           a(href="#{ebay.sites['Informationen zum Verkäufer']}") Weitere Informationen
-        dt Anrufzeiten     
+        dt Hotline     
         dd(title='Mo - Fr') Mo - Fr
         dd(title='09.00-18.00 Uhr') 09.00-18.00 Uhr

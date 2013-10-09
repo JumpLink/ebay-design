@@ -3,7 +3,8 @@
     .panel-heading
       h3.panel-title
         i.icon-truck
-        | Versand
+        a(href="#{ebay.sites['Lieferung']}")
+         | Versand
     .panel-body
-      img(src='images/Logo_DPD.svg', style='width: 100%;')
-      img(src='images/United-Parcel-Service-Logo.svg', style='width: 100%;')
+      img(title="DPD", alt="DPD", src='#{source_url}/images/Logo_DPD.svg', style='width: 50%; margin-left:25%; margin-right:25%;')
+      img(title="UPS", alt="UPS", src='#{source_url}/images/United-Parcel-Service-Logo.svg', style='width: 50%; margin-left:25%; margin-right:25%;')

@@ -5,7 +5,7 @@
 
 var express = require('express');
 var routes = require('./routes');
-var user = require('./routes/user');
+//var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 
@@ -28,8 +28,14 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('/users', user.list);
+app.get('/home', routes.index);
+app.get('/widerrufsbelehrung', routes.index);
+app.get('/kba', routes.index);
+app.get('/versand', routes.index);
+app.get('/aboutme', routes.index);
+app.get('/product', routes.index);
+app.get('/volkswagen', routes.index);
+app.get('/impressum', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

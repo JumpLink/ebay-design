@@ -1,0 +1,44 @@
+.carchooser {
+	max-width: 100%;
+	//max-width: 1065px;
+	margin-left: auto ;
+  margin-right: auto ;
+  margin-bottom: 20px;
+	.default-shadow();
+	.choosetext {
+		padding: 5px;
+		width: 100%;
+		text-align: center;
+		font-size: 26px;	
+		.schreibmaschine-font();
+		color: #071258;
+		background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gATQ3JlYXRlZCB3aXRoIEdJTVD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAAjAEkDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQIAAwb/xAAYAQEBAAMAAAAAAAAAAAAAAAAAAgEEBf/aAAwDAQACEAMQAAAB9rr8jZSaDQJAoDoACJgADFgYxiiAMBZiRKJECTqJyEBKJMYo/8QAHRAAAgIDAQEBAAAAAAAAAAAAAAERMRAhQQIgEv/aAAgBAQABBQLnRZs/JEfHCdZRoobLXPKwpLGaxA62cxSI+PL11DLxJ//EABQRAQAAAAAAAAAAAAAAAAAAAFD/2gAIAQMBAT8BS//EABQRAQAAAAAAAAAAAAAAAAAAAFD/2gAIAQIBAT8BS//EABkQAAEFAAAAAAAAAAAAAAAAACABECExUP/aAAgBAQAGPwIpa8NT/8QAHxAAAwACAwADAQAAAAAAAAAAAAERITFBUWEQcYHB/9oACAEBAAE/IX1yN6Tklb48Gx6hZVGrVokSB0pMD1aFXomlpidzyV7bK3MxQw0N5OXexveCFOmUaTgl0JoNJ30Mdz+dGs7RRR45IsmyF9EO1Nj2qx6OqSxgqIT2UH3L6i6yJ4eLBvKI8+LVk2PeXk/gTP4YqrZzoloo/9oADAMBAAIAAwAAABAm8mk0kk0k0m2m02020m20m2mn/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAwEBPxBL/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQMVD/2gAIAQIBAT8QFDvP/8QAIBABAAMAAwEAAwEBAAAAAAAAAQARITFBUWFxkbGBof/aAAgBAQABPxDWnCmpYxY7S6rq4QAuTAXyOgUbtwLxS/eYcwBwXSxQt3hekyWp2gtufb9Ywr39MZvQ/iSxLrpkvqqUqoWQunncLZQ1KIL1q8Q+wA6eZUVIC77PyQwZrV8gc6h7OAHF4Su8wRbcNrAdCmlexKQ/6RSYfkrJrSfRio0+mKGMmepTRVQvtuNU0n7YCNHqf0gW+RjkQCcg4nDBY24Hmo5YiXTbPlFGZ0/yWqSl9xAaXUui1YnDOnUAZWHCALAPP+xVc8KjXc+0/9k=);
+	}
+	.cars {
+		outline: 0;
+		width: 100%;
+		height: auto;
+		a {
+			img {
+				outline: 0;
+				width: 100%;
+				height: auto;
+				float: left;
+			}
+			img.hover {
+				display: none;
+			}
+			img.normal {
+				display: block;
+			}
+			&:hover {
+				img.hover {
+					display: block;
+				}
+				img.normal {
+					display: none;
+				}
+			}
+		}
+	}
+}

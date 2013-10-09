@@ -4,9 +4,18 @@ nav.navbar.navbar-inverse.navbar-static-top.navbar-base(role='navigation')
       .bw-logo
   .navbar-collapse.navbar-ex8-collapse
     ul.nav.navbar-nav
-      each link, name in ebay.categories
-        li
-          a(href='#{link}') #{name}
+      each categorie, name in ebay.categories
+        if categorie.sub == null
+          li
+            a(href='#{categorie.url}') #{name}
+        else
+          li.dropdown-parent
+            a(href='#{categorie.url}') #{name}
+              ul.dropdown-menu
+                each sub, subname in categorie.sub
+                  if subname.length > 1
+                    li
+                      a(href='#{sub.url}') #{subname}
     form.navbar-form.navbar-right(role='search', method='get', action='#{ebay_search_url}')
       .search.input-group
         input#search.form-control(type='text', placeholder='Suche', name='_nkw', value='', autocomplete='off')
