@@ -1,3 +1,4 @@
 [submodule "stylesheet/magento-skin"]
 	path = stylesheet/magento-skin
 	url = git@github.com:bugwelder/skin.git
+	branch = new

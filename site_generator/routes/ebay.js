@@ -24,6 +24,7 @@ exports.ebay = {
 			'Lieferung' : '',
 			'KBA Zertifizierung' : 'test kba',
 			'Volkswagen Classic Parts' : "test vw",
+			'Mitarbeiter' : 'mitarbeiter',
 			'Informationen zum Verkäufer' : "http://members.sandbox.ebay.de/aboutme/bugwelder"
 		},
 		search : 'http://stores.shop.ebay.de//Bugwelder-Shop__W0QQ_sidZ574086930',
@@ -54,6 +55,7 @@ exports.ebay = {
 			'Lieferung' : '',
 			'KBA Zertifizierung' : 'test kba',
 			'Volkswagen Classic Parts' : "test vw",
+			'Mitarbeiter' : 'mitarbeiter',
 			'Informationen zum Verkäufer' : "http://members.sandbox.ebay.de/aboutme/bugwelder"
 		},
 		search : 'http://stores.shop.sandbox.ebay.de//bugwelder__W0QQ_sidZ133026302',
@@ -84,6 +86,7 @@ exports.ebay = {
 			'Lieferung' : '/lieferung',
 			'KBA Zertifizierung' : '/kba',
 			'Volkswagen Classic Parts' : "/volkswagen",
+			'Mitarbeiter' : 'mitarbeiter',
 			'Informationen zum Verkäufer' : "/aboutme"
 		},
 		search : '/search',

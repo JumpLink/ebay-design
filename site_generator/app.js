@@ -32,10 +32,13 @@ app.get('/home', routes.index);
 app.get('/widerrufsbelehrung', routes.index);
 app.get('/kba', routes.index);
 app.get('/versand', routes.index);
-app.get('/aboutme', routes.index);
+app.get('/lieferung', routes.index);
 app.get('/product', routes.index);
 app.get('/volkswagen', routes.index);
 app.get('/impressum', routes.index);
+app.get('/agb', routes.index);
+app.get('/aboutme', routes.index);
+app.get('/mitarbeiter', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
