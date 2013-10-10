@@ -33,31 +33,31 @@ exports.ebay = {
 	},
 	sandbox: {
 		categories : {
-			'Felgen' : {url:'', sub:null},
-			'Fahrzeuge' : {url:'', sub: {
-					"VW Käfer" : {url:'', sub:null},
-					"VW Bus T1" : {url:'', sub:null},
-					"VW Bus T2" : {url:'', sub:null},
-					"VW Bus T3" : {url:'', sub:null},
-					"Karmann Ghia" : {url:'/karmannghia', sub:null},
-					"VW Golf I" : {url:'', sub:null},
-					"VW Golf II" : {url:'', sub:null}
+			'Felgen' : {url:'http://stores.sandbox.ebay.de/bugwelder_Felgen_W0QQfsubZ573912', sub:null},
+			'Fahrzeuge' : {url:'#', sub: {
+					"VW Käfer" : {url:'http://stores.sandbox.ebay.de/bugwelder_VW-Kafer_W0QQfsubZ573913', sub:null},
+					"VW Bus T1" : {url:'http://stores.sandbox.ebay.de/bugwelder_VW-Bus-T1_W0QQfsubZ573914', sub:null},
+					"VW Bus T2" : {url:'http://stores.sandbox.ebay.de/bugwelder_VW-Bus-T2_W0QQfsubZ573915', sub:null},
+					"VW Bus T3" : {url:'http://stores.sandbox.ebay.de/bugwelder_VW-Bus-T3_W0QQfsubZ573916', sub:null},
+					"Karmann Ghia" : {url:'http://stores.sandbox.ebay.de/bugwelder_Karmann-Ghia_W0QQfsubZ577338', sub:null},
+					"VW Golf I" : {url:'http://stores.sandbox.ebay.de/bugwelder_VW-Golf-I_W0QQfsubZ575963', sub:null},
+					"VW Golf II" : {url:'http://stores.sandbox.ebay.de/bugwelder_VW-Golf-II_W0QQfsubZ575964', sub:null}
 				}
 			},
-			"Werkzeuge" : {url:'', sub:null},
-			"Auspuff" : {url:'', sub:null},
-			"Lifestyle" : {url:'', sub:null},
-			"Sonstige" : {url:'', sub:null}
+			"Werkzeuge" : {url:'http://stores.sandbox.ebay.de/bugwelder_Werkzeuge_W0QQfsubZ575965', sub:null},
+			"Auspuff" : {url:'http://stores.sandbox.ebay.de/bugwelder_Auspuff_W0QQfsubZ575966', sub:null},
+			"Lifestyle" : {url:'http://stores.sandbox.ebay.de/bugwelder_Lifestyle_W0QQfsubZ575967', sub:null},
+			"Sonstige" : {url:'http://stores.sandbox.ebay.de/bugwelder_Sonstige_W0QQfsubZ1', sub:null}
 		},
 		sites : {
-			'Home' : '',
-			'Impressum' : '',
-			'AGB' : '',
-			'Widerrufsbelehrung' : '',
-			'Lieferung' : '',
-			'KBA Zertifizierung' : 'test kba',
-			'Volkswagen Classic Parts' : "test vw",
-			'Mitarbeiter' : 'mitarbeiter',
+			'Home' : 'http://stores.sandbox.ebay.de/bugwelder/pages/home',
+			'Impressum' : 'http://stores.sandbox.ebay.de/bugwelder/pages/impressum',
+			'AGB' : 'http://stores.sandbox.ebay.de/bugwelder/pages/agb',
+			'Widerrufsbelehrung' : 'http://stores.sandbox.ebay.de/bugwelder/pages/widerrufsbelehrung',
+			'Lieferung' : 'http://stores.sandbox.ebay.de/bugwelder/pages/lieferung',
+			'KBA Zertifizierung' : 'http://stores.sandbox.ebay.de/bugwelder/pages/kba-zertifizierung',
+			'Volkswagen Classic Parts' : "http://stores.sandbox.ebay.de/bugwelder/pages/volkswagen-classic-parts",
+			'Mitarbeiter' : 'http://stores.sandbox.ebay.de/bugwelder/pages/mitarbeiter',
 			'Informationen zum Verkäufer' : "http://members.sandbox.ebay.de/aboutme/bugwelder"
 		},
 		search : 'http://stores.shop.sandbox.ebay.de//bugwelder__W0QQ_sidZ133026302',

@@ -86,10 +86,12 @@ table.v4clp td ul {
     }
   }
 	>table {
-		background: @black;
-		.default-shadow();
-		.menu-font();
-		.border-radius(3px);
+    &.v4thldr {
+      background: @black;
+      .default-shadow();
+    }
+    .menu-font();
+    .border-radius(3px);
 		table {
 
 			.v4acp_head {
