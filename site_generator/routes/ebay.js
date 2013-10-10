@@ -7,6 +7,7 @@ exports.ebay = {
 					"VW Bus T1" : {url:'http://stores.ebay.de/Bugwelder-Shop_VW-Bus-T1-50-67_W0QQfsubZ5751407010', sub:null},
 					"VW Bus T2" : {url:'http://stores.ebay.de/Bugwelder-Shop_VW-Bus-T2-68-79_W0QQfsubZ5751408010', sub:null},
 					"VW Bus T3" : {url:'http://stores.ebay.de/Bugwelder-Shop_VW-Bus-T3-80-91_W0QQfsubZ5751409010', sub:null},
+					"Karmann Ghia" : {url:'/karmannghia', sub:null},
 					"VW Golf I" : {url:'http://stores.ebay.de/Bugwelder-Shop_VW-Golf-I-74-83_W0QQfsubZ5751410010', sub:null},
 					"VW Golf II" : {url:'http://stores.ebay.de/Bugwelder-Shop_VW-Golf-II-83-92_W0QQfsubZ5751415010', sub:null}
 				}
@@ -38,6 +39,7 @@ exports.ebay = {
 					"VW Bus T1" : {url:'', sub:null},
 					"VW Bus T2" : {url:'', sub:null},
 					"VW Bus T3" : {url:'', sub:null},
+					"Karmann Ghia" : {url:'/karmannghia', sub:null},
 					"VW Golf I" : {url:'', sub:null},
 					"VW Golf II" : {url:'', sub:null}
 				}
@@ -69,6 +71,7 @@ exports.ebay = {
 					"VW Bus T1" : {url:'/vwbust1', sub:null},
 					"VW Bus T2" : {url:'/vwbust2', sub:null},
 					"VW Bus T3" : {url:'/vwbust3', sub:null},
+					"Karmann Ghia" : {url:'/karmannghia', sub:null},
 					"VW Golf I" : {url:'/vwgolf1', sub:null},
 					"VW Golf II" : {url:'/vwgolf2', sub:null}
 				}

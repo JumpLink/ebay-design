@@ -3,8 +3,8 @@
  */
 
 exports.index = function(req, res){
-	var MODE = 'local';
-	var SOURCE = 'local';
+	var MODE = 'sandbox';//'local';
+	var SOURCE = 'online'; //'local';
 
 	var ebay = require('./ebay.js').ebay;
 	var current_ebay = ebay.sandbox;
