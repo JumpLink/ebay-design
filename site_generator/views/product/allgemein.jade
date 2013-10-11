@@ -1,0 +1,16 @@
+.ebay-product
+  extends ../layout
+  block content
+    .product-view
+      include part-name
+      include panel-short-description
+      include panel-images
+      .row
+        .col-sm-7
+          include panel-description
+        .col-sm-5
+          include panel-zusatzinformationen
+        .col-sm-6
+          include ../panel-support
+        .col-sm-6
+          include ../panel-bank

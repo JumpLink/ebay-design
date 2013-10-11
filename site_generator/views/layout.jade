@@ -1,14 +1,19 @@
 doctype 5
 html
   head
-    include head
+    if mode == 'local'
+      include head
   body
-    // remove #CentralArea and #EBdescription in ebay
-    #CentralArea
-      #EBdescription
-        // -> ebay product discription
-        div.ebay-product-discription
-          include top-nav
-          .ebay-container
-            include left-nav
-        // <- ebay product discription
+    if mode == 'local'
+      #CentralArea
+        #EBdescription
+          div.ebay-product-discription
+            include top-nav
+            .ebay-container
+              include left-nav
+    else
+      div.ebay-product-discription
+        include head
+        include top-nav
+        .ebay-container
+          include left-nav

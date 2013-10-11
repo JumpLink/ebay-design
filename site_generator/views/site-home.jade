@@ -3,22 +3,12 @@ div.ebay-shop.site
   include block-carchooser
   .row
     .col-lg-6
-      img.img-rounded(src="#{source_url}/images/lager2.jpg", style="max-width:100%; margin-bottom: 20px;")
+      img.img-rounded(src="#{source_url}/images/lager2.jpg", style="width:100%; margin-bottom: 20px;")
     .col-lg-6
       include panel-welcome
   .row
     .col-lg-6
-      .support
-        .telephone
-        .panel.panel-bgw
-          .panel-heading
-            h3.panel-title
-              i.icon-phone
-              | Support
-          .panel-body
-            | Sie können unseren Kundenservice von 9:00 bis 18:00 Uhr erreichen, egal ob es dabei um die Lösung eines technischen Problems, Fragen zu einer Bestellung, einem Produkt oder einer ganz allgemeinen Anfrage geht.
-            dl.dl-horizontal
-              include part-support
+      include panel-support-short
     .col-lg-6
       include panel-bank
 // <- ebay shop site
