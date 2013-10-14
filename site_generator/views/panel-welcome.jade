@@ -4,10 +4,14 @@
         i.icon-group
         | Willkommen bei Bugwelder
     .panel-body
-      p Wir haben es  uns zum Ziel gemacht, sie mit hochwertigen Ersatz- &#38; Zubehörteilen für ihren historischen Volkswagen zu versorgen.
-      p Unser Sortiment umfasst Restaurationsteile , Verschleissteile sowie wunderschönes Zubehör um ihr Fahrzeug stilicher zu individualisieren. Unsere gut gefüllten Lagerregale beinhalten fast 10000 unterschiedliche Artikel für wasser- &#38; luftgekühlte Volkswagen.
-      strong Die Modellpalette unsere Teilekatalogs umfasst: 
-      ul
-        each car, carname in ebay.categories['Fahrzeuge'].sub
-          li
-            a(href="#{car.url}") #{carname}
+      .row
+        .col-lg-8
+          p Wir haben es  uns zum Ziel gemacht, sie mit hochwertigen Ersatz- &#38; Zubehörteilen für ihren historischen Volkswagen zu versorgen.
+          p Unser Sortiment umfasst Restaurationsteile , Verschleissteile sowie wunderschönes Zubehör um ihr Fahrzeug stilicher zu individualisieren. Unsere gut gefüllten Lagerregale beinhalten fast 10000 unterschiedliche Artikel für wasser- &#38; luftgekühlte Volkswagen.
+          strong Die Modellpalette unsere Teilekatalogs umfasst: 
+          ul
+            each car, carname in ebay.categories['Fahrzeuge'].sub
+              li
+                a(href="#{car.url}") #{carname}
+        .col-lg-4.visible-lg
+          img(style="max-width:100%")(src="#{source_url}/images/newsletter_csm_letter_k.png")

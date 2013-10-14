@@ -8,7 +8,7 @@ exports.index = function(req, res){
 
 	var MODE = 'production';
 
-	//var MODE = 'local';
+	var MODE = 'local';
 	var SOURCE = 'local';
 
 	var ebay = require('./ebay.js').ebay;
